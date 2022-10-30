@@ -1,0 +1,40 @@
+﻿<Window 
+    x:Class="WpfApp1.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:local="clr-namespace:WpfApp1"
+    mc:Ignorable="d"
+    WindowStartupLocation="CenterScreen"
+    Title="MainWindow" 
+    Height="450" 
+    Width="800">
+    
+    <Grid>
+        <StackPanel HorizontalAlignment="Center">
+            <WrapPanel 
+                HorizontalAlignment="Left" 
+                VerticalAlignment="Center">
+                <TextBox 
+                    Height="30" 
+                    Name="txtFilePath" 
+                    Width="550" 
+                    Margin="10,0,10,0" 
+                    FontSize="15" 
+                    Opacity="1" VerticalAlignment="Center"
+                    IsReadOnly="True"/>
+
+                <Button 
+                        Content="Browse Excel" 
+                        Name="btnOpen" 
+                        Width="120" 
+                        FontSize="15" 
+                        Height="30" 
+                        FontWeight="Bold" />
+            </WrapPanel>
+            <TextBlock Text="No excel file has been imported" Margin="0,50,0,0" FontSize="20" HorizontalAlignment="Center" />
+            <DataGrid  AutoGenerateColumns="True" IsReadOnly="True" HorizontalAlignment="Center" Name="dtGrid" VerticalAlignment="Center" />
+        </StackPanel>
+    </Grid>
+</Window>

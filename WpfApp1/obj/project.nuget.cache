@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "rFowXjcYLJ6GKbAx3hQpPS8KQWEriTXECMf1JSpV/ahz7zUd7pCQ1Kax3qiQfED6jSafrpM1o6y/QcBY4PA9LQ==",
+  "success": true,
+  "projectFilePath": "D:\\rvbaniversario\\Dev\\WpfApp1\\WpfApp1\\WpfApp1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\rvbaniversario\\.nuget\\packages\\microsoft.office.interop.excel\\15.0.4795.1001\\microsoft.office.interop.excel.15.0.4795.1001.nupkg.sha512"
+  ],
+  "logs": []
+}
